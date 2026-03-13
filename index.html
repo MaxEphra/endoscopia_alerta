@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>Status do Paciente</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="menu">
+
+<a href="painel.html">Painel</a> |
+<a href="dashboard.html">Dashboard</a>
+
+</div>
+
+<h1 id="paciente">Paciente</h1>
+
+<div id="status" class="status">
+
+Carregando status...
+
+</div>
+
+<button onclick="ativar()">Ativar alerta</button>
+
+<audio id="som" src="alarme.mp3" loop></audio>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+
+</body>
+
+</html>

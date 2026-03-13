@@ -1,0 +1,105 @@
+body{
+
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f2f2f2;
+    text-align:center;
+    margin-top:40px;
+    
+    }
+    
+    .menu{
+    
+    margin-bottom:20px;
+    font-size:18px;
+    
+    }
+    
+    .menu a{
+    
+    margin:10px;
+    text-decoration:none;
+    color:#0077ff;
+    font-weight:bold;
+    
+    }
+    
+    .menu a:hover{
+    
+    text-decoration:underline;
+    
+    }
+    
+    h1{
+    
+    font-size:36px;
+    
+    }
+    
+    .status{
+    
+    font-size:32px;
+    margin-top:40px;
+    
+    }
+    
+    button{
+    
+    padding:12px 20px;
+    font-size:18px;
+    margin:10px;
+    cursor:pointer;
+    border:none;
+    background:#0077ff;
+    color:white;
+    border-radius:6px;
+    
+    }
+    
+    .alerta{
+    
+    background:#ff0000;
+    color:white;
+    font-size:42px;
+    padding:30px;
+    
+    animation:piscando 0.7s infinite;
+    
+    }
+    
+    @keyframes piscando{
+    
+    0%{background:#ff0000}
+    50%{background:#ffffff;color:#ff0000}
+    100%{background:#ff0000}
+    
+    }
+    
+    .painel{
+    
+    max-width:500px;
+    margin:auto;
+    padding:30px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    
+    }
+    
+    input{
+    
+    padding:10px;
+    font-size:18px;
+    width:90%;
+    margin-bottom:10px;
+    
+    }
+    
+    .paciente{
+    
+    padding:15px;
+    margin:10px;
+    background:white;
+    border-radius:6px;
+    box-shadow:0 0 6px rgba(0,0,0,0.1);
+    
+    }

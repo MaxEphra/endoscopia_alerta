@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<title>Painel Recepção</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="menu">
+
+<a href="painel.html">Painel</a> |
+<a href="dashboard.html">Dashboard</a>
+
+</div>
+
+<div class="painel">
+
+<h2>Cadastrar Paciente</h2>
+
+<input id="nome" placeholder="Nome do paciente">
+
+<button onclick="criar()">Cadastrar</button>
+
+<br><br>
+
+<input id="idpaciente" placeholder="ID do paciente">
+
+<div id="link"></div>
+
+<div id="qr"></div>
+
+<hr>
+
+<h2>Atualizar Status</h2>
+
+<button onclick="setStatus('PREPARO')">Preparo</button>
+
+<button onclick="setStatus('EXAME')">Exame</button>
+
+<button onclick="setStatus('RECUPERACAO')">Recuperação</button>
+
+<button onclick="setStatus('LIBERADO')">Liberar</button>
+
+</div>
+
+<script src="config.js"></script>
+<script src="qr.js"></script>
+<script src="painel.js"></script>
+
+</body>
+
+</html>
